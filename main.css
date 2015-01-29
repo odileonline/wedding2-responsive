@@ -1,0 +1,60 @@
+.nav a {
+    color: #5a5a5a;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 14px 14px 10px 10px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+}
+
+h3 {
+	color: red;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url(assets/happy.jpg);
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 50px;
+}
+
+
+.jumbotron h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 30px;
+}
+
+.weddingday {
+    background-color: #f7f7f7;
+}
+
+.weddingday h3 {
+    font-family: ''shift'';
+    font-size: 18px;
+    font-weight: bold;
+    
+}.weddingday a {
+    color: #000000;
+}
+
+/* media queries */
+
+@media only screen and (max-device-width: 680px) {
+    .jumbotron {
+    position: relative;
+    background-image: url(assets/happysmall.jpg);
+}
+    }
